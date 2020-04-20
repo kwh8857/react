@@ -1,0 +1,32 @@
+#root {
+  .App {
+    .policy {
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 50px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+      border-radius: 5px;
+      background-color: white;
+      padding: 20px;
+
+      .pol_el {
+        display: flex;
+        align-items: center;
+        margin-bottom: 13px;
+        cursor: pointer;
+
+        .assets {
+          width: 20px;
+        }
+
+        .title {
+          margin-left: 13px;
+        }
+      }
+    }
+  }
+}
+
+img {
+  width: 100%;
+}
